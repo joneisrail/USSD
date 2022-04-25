@@ -34,6 +34,7 @@ namespace USSD
                 return false;
             }
         }
+        //commit test
         public static int signal_strength()
         {
             SerialPort serialPort = new SerialPort(modem_port);
